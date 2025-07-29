@@ -1,0 +1,18 @@
+[project]
+name = "ProjetaCLI"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.11.7",
+    "typer>=0.16.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.1",
+]
+
+[project.scripts]
+proj = "app.main:main"

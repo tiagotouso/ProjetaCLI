@@ -1,0 +1,213 @@
+{
+    "project": {
+        "cdproject": "1",
+        "name": "ProjetaCLI",
+        "description": "Este projeto oferece uma interface de linha de comando (CLI) para um gerenciamento de projetos ágil e descomplicado. Com ele, você pode facilmente planejar, executar e avaliar o ciclo de vida de seus projetos, mantendo um registro claro de informações, tarefas, marcos e correções.",
+        "status": "⏰ Aguardando"
+    },
+    "milestones": [
+        {
+            "cdmilestone": "1",
+            "name": "Setup Inicial",
+            "status": "✅ Concluído"
+        },
+        {
+            "cdmilestone": "2",
+            "name": "Modelagem de Dados",
+            "status": "⏰ Aguardando"
+        },
+        {
+            "cdmilestone": "3",
+            "name": "Lógica e Comandos da CLI",
+            "status": "⏰ Aguardando"
+        },
+        {
+            "cdmilestone": "4",
+            "name": "Qualidade e Documentação",
+            "status": "⏰ Aguardando"
+        },
+        {
+            "cdmilestone": "5",
+            "name": "Empacotamento e Distribuição",
+            "status": "⏰ Aguardando"
+        }
+    ],
+    "actions": [
+        {
+            "cdmilestone": null,
+            "cdaction": "1",
+            "name": "Inicia o repositório Git localmente",
+            "status": "⏰ Aguardando"
+        },
+        {
+            "cdmilestone": null,
+            "cdaction": "2",
+            "name": "Cria o repositório remoto no GitHub",
+            "status": "⏰ Aguardando"
+        },
+        {
+            "cdmilestone": null,
+            "cdaction": "3",
+            "name": "Configura o ambiente virtual Python",
+            "status": "⏰ Aguardando"
+        },
+        {
+            "cdmilestone": null,
+            "cdaction": "4",
+            "name": "Cria a estrutura de pastas e arquivos",
+            "status": "⏰ Aguardando"
+        },
+        {
+            "cdmilestone": null,
+            "cdaction": "5",
+            "name": "Instala dependências iniciais",
+            "status": "⏰ Aguardando"
+        },
+        {
+            "cdmilestone": null,
+            "cdaction": "6",
+            "name": "Cria o modelo para Project",
+            "status": "⏰ Aguardando"
+        },
+        {
+            "cdmilestone": null,
+            "cdaction": "7",
+            "name": "Cria o modelo para Milestones",
+            "status": "⏰ Aguardando"
+        },
+        {
+            "cdmilestone": null,
+            "cdaction": "8",
+            "name": "Cria o modelo para Actions",
+            "status": "⏰ Aguardando"
+        },
+        {
+            "cdmilestone": null,
+            "cdaction": "9",
+            "name": "Cria o modelo para Issues",
+            "status": "⏰ Aguardando"
+        },
+        {
+            "cdmilestone": null,
+            "cdaction": "10",
+            "name": "Cria o modelo para WorkLog",
+            "status": "⏰ Aguardando"
+        },
+        {
+            "cdmilestone": null,
+            "cdaction": "11",
+            "name": "Desenvolve o módulo para salvar e carregar dados",
+            "status": "⏰ Aguardando"
+        },
+        {
+            "cdmilestone": null,
+            "cdaction": "12",
+            "name": "Criar a interface de linha de comando (CLI)",
+            "status": "⏰ Aguardando"
+        },
+        {
+            "cdmilestone": null,
+            "cdaction": "13",
+            "name": "Gerenciar Project (add, list, show, set, update)",
+            "status": "⏰ Aguardando"
+        },
+        {
+            "cdmilestone": null,
+            "cdaction": "14",
+            "name": "Gerenciar Milestones (add, list)",
+            "status": "⏰ Aguardando"
+        },
+        {
+            "cdmilestone": null,
+            "cdaction": "15",
+            "name": "Gerenciar Actions (add, list, modify)",
+            "status": "⏰ Aguardando"
+        },
+        {
+            "cdmilestone": null,
+            "cdaction": "16",
+            "name": "Gerenciar Issues (add, list, modify)",
+            "status": "⏰ Aguardando"
+        },
+        {
+            "cdmilestone": null,
+            "cdaction": "17",
+            "name": "Gerenciar Worklog (add, list, report)",
+            "status": "⏰ Aguardando"
+        },
+        {
+            "cdmilestone": null,
+            "cdaction": "18",
+            "name": "Configura o ambiente de testes",
+            "status": "⏰ Aguardando"
+        },
+        {
+            "cdmilestone": null,
+            "cdaction": "19",
+            "name": "Cria testes unitários para os modelos e a lógica principal",
+            "status": "⏰ Aguardando"
+        },
+        {
+            "cdmilestone": null,
+            "cdaction": "20",
+            "name": "Cria testes de integração para os comandos da CLI",
+            "status": "⏰ Aguardando"
+        },
+        {
+            "cdmilestone": null,
+            "cdaction": "21",
+            "name": "Mede a cobertura de testes do código",
+            "status": "⏰ Aguardando"
+        },
+        {
+            "cdmilestone": null,
+            "cdaction": "22",
+            "name": "Configura uma ferramenta de documentação",
+            "status": "⏰ Aguardando"
+        },
+        {
+            "cdmilestone": null,
+            "cdaction": "23",
+            "name": "Escreve o guia de uso na documentação",
+            "status": "⏰ Aguardando"
+        },
+        {
+            "cdmilestone": null,
+            "cdaction": "24",
+            "name": "Cria um README.md completo com instalação e uso rápido.",
+            "status": "⏰ Aguardando"
+        },
+        {
+            "cdmilestone": null,
+            "cdaction": "25",
+            "name": "Configura o arquivo pyproject.toml para empacotamento",
+            "status": "⏰ Aguardando"
+        },
+        {
+            "cdmilestone": null,
+            "cdaction": "26",
+            "name": "Gera o pacote distribuível",
+            "status": "⏰ Aguardando"
+        },
+        {
+            "cdmilestone": null,
+            "cdaction": "27",
+            "name": "Cria o executável standalone",
+            "status": "⏰ Aguardando"
+        },
+        {
+            "cdmilestone": null,
+            "cdaction": "28",
+            "name": "Cria a tag da versão",
+            "status": "⏰ Aguardando"
+        },
+        {
+            "cdmilestone": null,
+            "cdaction": "29",
+            "name": "Publica a \"Release\" no GitHub com os executáveis anexados",
+            "status": "⏰ Aguardando"
+        }
+    ],
+    "issues": [],
+    "works": []
+}
