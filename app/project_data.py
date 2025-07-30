@@ -51,11 +51,11 @@ class ProjectData(BaseModel):
         )
         self.milestones.append(milestones)
 
-    def add_actions(self, name: str, cdgrupo: Optional[str] = None):
+    def add_actions(self, name: str, cdmilestone: Optional[str] = None):
         '''Adiciona uma nova ação ao projeto, opcionalmente vinculada a um grupo.'''
         code = str(len(self.actions) + 1)
         action = Action(
-            cdgroup=cdgrupo,
+            cdmilestone=cdmilestone,
             cdaction=code,
             name=name.strip(),
             status=StatusEnum.AGUARDANDO
@@ -117,10 +117,10 @@ class ProjectData(BaseModel):
 
 if __name__ == '__main__':
 
-    # data = ProjectData.load_or_create()
-    # data.repost_projeto()
-    # print(data)
-
-    data = ProjectData.load_or_create('1', 'projeto1', 'descrição do projeto')
+    data = ProjectData.load_or_create()
     data.repost_projeto()
     print(data)
+
+    # data = ProjectData.load_or_create('1', 'projeto1', 'descrição do projeto')
+    # data.repost_projeto()
+    # print(data)

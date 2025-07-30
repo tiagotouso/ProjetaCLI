@@ -9,7 +9,7 @@
         {
             "cdmilestone": "1",
             "name": "Setup Inicial",
-            "status": "✅ Concluído"
+            "status": "⏰ Aguardando"
         },
         {
             "cdmilestone": "2",
@@ -34,175 +34,175 @@
     ],
     "actions": [
         {
-            "cdmilestone": null,
+            "cdmilestone": "1",
             "cdaction": "1",
             "name": "Inicia o repositório Git localmente",
             "status": "⏰ Aguardando"
         },
         {
-            "cdmilestone": null,
+            "cdmilestone": "1",
             "cdaction": "2",
             "name": "Cria o repositório remoto no GitHub",
             "status": "⏰ Aguardando"
         },
         {
-            "cdmilestone": null,
+            "cdmilestone": "1",
             "cdaction": "3",
             "name": "Configura o ambiente virtual Python",
             "status": "⏰ Aguardando"
         },
         {
-            "cdmilestone": null,
+            "cdmilestone": "1",
             "cdaction": "4",
             "name": "Cria a estrutura de pastas e arquivos",
             "status": "⏰ Aguardando"
         },
         {
-            "cdmilestone": null,
+            "cdmilestone": "1",
             "cdaction": "5",
             "name": "Instala dependências iniciais",
             "status": "⏰ Aguardando"
         },
         {
-            "cdmilestone": null,
+            "cdmilestone": "2",
             "cdaction": "6",
             "name": "Cria o modelo para Project",
             "status": "⏰ Aguardando"
         },
         {
-            "cdmilestone": null,
+            "cdmilestone": "2",
             "cdaction": "7",
             "name": "Cria o modelo para Milestones",
             "status": "⏰ Aguardando"
         },
         {
-            "cdmilestone": null,
+            "cdmilestone": "2",
             "cdaction": "8",
             "name": "Cria o modelo para Actions",
             "status": "⏰ Aguardando"
         },
         {
-            "cdmilestone": null,
+            "cdmilestone": "2",
             "cdaction": "9",
             "name": "Cria o modelo para Issues",
             "status": "⏰ Aguardando"
         },
         {
-            "cdmilestone": null,
+            "cdmilestone": "2",
             "cdaction": "10",
             "name": "Cria o modelo para WorkLog",
             "status": "⏰ Aguardando"
         },
         {
-            "cdmilestone": null,
+            "cdmilestone": "2",
             "cdaction": "11",
             "name": "Desenvolve o módulo para salvar e carregar dados",
             "status": "⏰ Aguardando"
         },
         {
-            "cdmilestone": null,
+            "cdmilestone": "3",
             "cdaction": "12",
             "name": "Criar a interface de linha de comando (CLI)",
             "status": "⏰ Aguardando"
         },
         {
-            "cdmilestone": null,
+            "cdmilestone": "3",
             "cdaction": "13",
             "name": "Gerenciar Project (add, list, show, set, update)",
             "status": "⏰ Aguardando"
         },
         {
-            "cdmilestone": null,
+            "cdmilestone": "3",
             "cdaction": "14",
             "name": "Gerenciar Milestones (add, list)",
             "status": "⏰ Aguardando"
         },
         {
-            "cdmilestone": null,
+            "cdmilestone": "3",
             "cdaction": "15",
             "name": "Gerenciar Actions (add, list, modify)",
             "status": "⏰ Aguardando"
         },
         {
-            "cdmilestone": null,
+            "cdmilestone": "3",
             "cdaction": "16",
             "name": "Gerenciar Issues (add, list, modify)",
             "status": "⏰ Aguardando"
         },
         {
-            "cdmilestone": null,
+            "cdmilestone": "3",
             "cdaction": "17",
-            "name": "Gerenciar Worklog (add, list, report)",
+            "name": "Gerenciar Worklog (add, list, modify, report)",
             "status": "⏰ Aguardando"
         },
         {
-            "cdmilestone": null,
+            "cdmilestone": "4",
             "cdaction": "18",
             "name": "Configura o ambiente de testes",
             "status": "⏰ Aguardando"
         },
         {
-            "cdmilestone": null,
+            "cdmilestone": "4",
             "cdaction": "19",
             "name": "Cria testes unitários para os modelos e a lógica principal",
             "status": "⏰ Aguardando"
         },
         {
-            "cdmilestone": null,
+            "cdmilestone": "4",
             "cdaction": "20",
             "name": "Cria testes de integração para os comandos da CLI",
             "status": "⏰ Aguardando"
         },
         {
-            "cdmilestone": null,
+            "cdmilestone": "4",
             "cdaction": "21",
             "name": "Mede a cobertura de testes do código",
             "status": "⏰ Aguardando"
         },
         {
-            "cdmilestone": null,
+            "cdmilestone": "4",
             "cdaction": "22",
             "name": "Configura uma ferramenta de documentação",
             "status": "⏰ Aguardando"
         },
         {
-            "cdmilestone": null,
+            "cdmilestone": "4",
             "cdaction": "23",
             "name": "Escreve o guia de uso na documentação",
             "status": "⏰ Aguardando"
         },
         {
-            "cdmilestone": null,
+            "cdmilestone": "4",
             "cdaction": "24",
-            "name": "Cria um README.md completo com instalação e uso rápido.",
+            "name": "Cria um README.md completo com instalação e uso rápido",
             "status": "⏰ Aguardando"
         },
         {
-            "cdmilestone": null,
+            "cdmilestone": "5",
             "cdaction": "25",
             "name": "Configura o arquivo pyproject.toml para empacotamento",
             "status": "⏰ Aguardando"
         },
         {
-            "cdmilestone": null,
+            "cdmilestone": "5",
             "cdaction": "26",
             "name": "Gera o pacote distribuível",
             "status": "⏰ Aguardando"
         },
         {
-            "cdmilestone": null,
+            "cdmilestone": "5",
             "cdaction": "27",
             "name": "Cria o executável standalone",
             "status": "⏰ Aguardando"
         },
         {
-            "cdmilestone": null,
+            "cdmilestone": "5",
             "cdaction": "28",
             "name": "Cria a tag da versão",
             "status": "⏰ Aguardando"
         },
         {
-            "cdmilestone": null,
+            "cdmilestone": "5",
             "cdaction": "29",
             "name": "Publica a \"Release\" no GitHub com os executáveis anexados",
             "status": "⏰ Aguardando"

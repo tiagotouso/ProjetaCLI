@@ -1,4 +1,5 @@
 from app.project_data import ProjectData
+from app.archive import write_pydantic
 from pathlib import Path
 from rich import print
 
@@ -34,7 +35,7 @@ if __name__ == '__main__':
 
         if linha.count('*') == 0:
             for action in tabela:
-                data.add_actions(action)
+                data.add_actions(action, None)
         elif linha.count('*') == 1 and linha.upper().count('ISSUES') == 0:
             code += 1
             data.add_milestones(linha.replace('*', ''))
@@ -43,7 +44,7 @@ if __name__ == '__main__':
         elif bloco.count('*') == 1 and linha.upper().count('ISSUES') == 1:
             data.add_issues(action)
 
-    # gravar_modelo_em_json(data)
+    write_pydantic(data)
 
 
     print(data)
