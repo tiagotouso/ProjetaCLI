@@ -6,11 +6,11 @@
 
 
 ### 🚩 Setup Inicial
-- [ ] Inicia o repositório Git localmente ⏰ Aguardando
-- [ ] Cria o repositório remoto no GitHub ⏰ Aguardando
-- [ ] Configura o ambiente virtual Python ⏰ Aguardando
-- [ ] Cria a estrutura de pastas e arquivos ⏰ Aguardando
-- [ ] Instala dependências iniciais ⏰ Aguardando
+- [x] Inicia o repositório Git localmente ✅ Concluído
+- [x] Cria o repositório remoto no GitHub ✅ Concluído
+- [x] Configura o ambiente virtual Python ✅ Concluído
+- [x] Cria a estrutura de pastas e arquivos ✅ Concluído
+- [x] Instala dependências iniciais ✅ Concluído
 
 ### 🚩 Modelagem de Dados
 - [ ] Cria o modelo para Project ⏰ Aguardando
@@ -43,3 +43,29 @@
 - [ ] Cria o executável standalone ⏰ Aguardando
 - [ ] Cria a tag da versão ⏰ Aguardando
 - [ ] Publica a "Release" no GitHub com os executáveis anexados ⏰ Aguardando
+
+## 🐛 Issues
+
+- Criar função para alterar status milestones ✅ Concluído - 2026-04-20
+- Criar função para alterar status Actions ✅ Concluído - 2026-04-20
+- Criar função para alterar status Issues ✅ Concluído - 2026-04-20
+- Criar função para alterar status WorkLog ✅ Concluído - 2026-04-20
+- Não deixar inicializar projeto já inicializado ✅ Concluído - 2026-04-20
+- Excluir a issues no markdown quando ele for excluida pelo usuário ✅ Concluído - 2026-04-20
+- Quando a issues add via console, ela não está atualizando o banco, está atualizando somente o markdown sync ✅ Concluído - 2026-04-20
+
+## ⏱️ Works
+
+- 2026-04-20: Repositório Git iniciado (0.1h)
+- 2026-04-20: Repositório Git remoto criado (0.1h)
+- 2026-04-20: Criado venv e instalado pacotes (0.1h)
+- 2026-04-20: Repositório Git iniciado (0.1h)
+- 2026-04-20: Função criada (0.1h)
+- 2026-04-20: Função criada (0.1h)
+- 2026-04-20: Função criada (0.1h)
+- 2026-04-20: Função criada (0.1h)
+- 2026-04-20: Função criada (0.1h)
+- 2026-04-20: Função criada (0.1h)
+- 2026-04-20: Função criada (0.1h)
+- 2026-04-20: Estrutura de pasta criada (0.1h)
+- 2026-04-20: Dependências iniciais instaladas (0.1h)

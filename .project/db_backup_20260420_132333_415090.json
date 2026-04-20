@@ -9,7 +9,7 @@
         {
             "idmilestone": "527b273f-dc16-49ed-a1b9-2aac3f72cd90",
             "name": "Setup Inicial",
-            "status": "✅ Concluído",
+            "status": "⏰ Aguardando",
             "sequence": 1
         },
         {
@@ -48,35 +48,35 @@
             "idmilestone": "527b273f-dc16-49ed-a1b9-2aac3f72cd90",
             "idaction": "0713b7cf-368e-4e2a-a62b-3e8df4acfabb",
             "name": "Inicia o repositório Git localmente",
-            "status": "✅ Concluído",
+            "status": "⏰ Aguardando",
             "sequence": 1
         },
         {
             "idmilestone": "527b273f-dc16-49ed-a1b9-2aac3f72cd90",
             "idaction": "b20dc7af-40fb-41e5-b892-c35b8dc8ba94",
             "name": "Cria o repositório remoto no GitHub",
-            "status": "✅ Concluído",
+            "status": "⏰ Aguardando",
             "sequence": 2
         },
         {
             "idmilestone": "527b273f-dc16-49ed-a1b9-2aac3f72cd90",
             "idaction": "eeca6d90-3856-4773-bc5e-64fd1d751508",
             "name": "Configura o ambiente virtual Python",
-            "status": "✅ Concluído",
+            "status": "⏰ Aguardando",
             "sequence": 3
         },
         {
             "idmilestone": "527b273f-dc16-49ed-a1b9-2aac3f72cd90",
             "idaction": "a4758c0d-65a1-42dc-949f-a7dd943f1092",
             "name": "Cria a estrutura de pastas e arquivos",
-            "status": "✅ Concluído",
+            "status": "⏰ Aguardando",
             "sequence": 4
         },
         {
             "idmilestone": "527b273f-dc16-49ed-a1b9-2aac3f72cd90",
             "idaction": "f546ea95-facd-4295-8e99-073e588acc5f",
             "name": "Instala dependências iniciais",
-            "status": "✅ Concluído",
+            "status": "⏰ Aguardando",
             "sequence": 5
         },
         {
@@ -418,5 +418,5 @@
             "sequence": 13
         }
     ],
-    "needs_sync": false
+    "needs_sync": true
 }

@@ -6,18 +6,18 @@ from unittest.mock import MagicMock
 
 from app.archive import write_pydantic, read_pydantic
 from app.project_data import ProjectData
-from app.metadados import Project, StatusEnum
+from app.models import Project, StatusEnum
 
 @pytest.fixture
 def sample_project_data():
     """Cria um objeto ProjectData de exemplo para ser usado nos testes."""
     project = Project(
-        cdproject="PROJ-TEST-123",
+        idproject="PROJ-TEST-123",
         name="Test Project for Archive",
         description="A sample project to test read/write functions.",
         status=StatusEnum.INICIADO
     )
-    return ProjectData(project=project, milestones=[], actions=[], issues=[], worklog=[])
+    return ProjectData(project=project, milestones=[], actions=[], issues=[], works=[])
 
 @pytest.fixture
 def mock_path(monkeypatch): 
@@ -48,7 +48,7 @@ class TestReadPydantic:
     def test_read_pydantic_calls_read_text(self, mock_path):
         """Verifica se a função de leitura chama o método de leitura de arquivo."""
         mock_file_path = mock_path.return_value
-        mock_file_path.read_text.return_value = ProjectData(project=Project(cdproject='a', name='b', description='c', status=StatusEnum.AGUARDANDO), milestones=[], actions=[], issues=[], worklog=[]).model_dump_json()
+        mock_file_path.read_text.return_value = ProjectData(project=Project(idproject="1", name='b', description='c', status=StatusEnum.AGUARDANDO), milestones=[], actions=[], issues=[], works=[]).model_dump_json()
         read_pydantic()
         mock_file_path.read_text.assert_called_once_with(encoding='utf-8')
 

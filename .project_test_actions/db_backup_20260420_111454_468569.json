@@ -1,0 +1,247 @@
+{
+    "project": {
+        "idproject": "e71d3704-2534-4250-942e-3b2ab23afa0c",
+        "name": "ProjetaCLI",
+        "description": "Este projeto oferece uma interface de linha de comando (CLI) para um gerenciamento de projetos ágil e descomplicado. Com ele, você pode facilmente planejar, executar e avaliar o ciclo de vida de seus projetos, mantendo um registro claro de informações, tarefas, marcos e correções.",
+        "status": "⏰ Aguardando"
+    },
+    "milestones": [
+        {
+            "idmilestone": "8f8f557d-f82d-407d-a703-0388d6efef09",
+            "name": "Setup Inicial",
+            "status": "⏰ Aguardando",
+            "sequence": 1
+        },
+        {
+            "idmilestone": "24f0e8ba-d469-4926-b1d5-d647daa4bf41",
+            "name": "Modelagem de Dados",
+            "status": "⏰ Aguardando",
+            "sequence": 2
+        },
+        {
+            "idmilestone": "709e53b5-42c6-403c-8381-6dc5093ff534",
+            "name": "Lógica e Comandos da CLI",
+            "status": "⏰ Aguardando",
+            "sequence": 3
+        },
+        {
+            "idmilestone": "81a1a809-b0cb-49c0-af9e-40312ec207c6",
+            "name": "Qualidade e Documentação",
+            "status": "⏰ Aguardando",
+            "sequence": 4
+        },
+        {
+            "idmilestone": "4366c90c-c108-4045-9d73-343318289889",
+            "name": "Empacotamento e Distribuição",
+            "status": "⏰ Aguardando",
+            "sequence": 5
+        }
+    ],
+    "actions": [
+        {
+            "idmilestone": "8f8f557d-f82d-407d-a703-0388d6efef09",
+            "idaction": "29f91a4a-ad99-4a42-8c0a-830bd18602a3",
+            "name": "Inicia o repositório Git localmente",
+            "status": "⏰ Aguardando",
+            "sequence": 1
+        },
+        {
+            "idmilestone": "8f8f557d-f82d-407d-a703-0388d6efef09",
+            "idaction": "997d3965-0fe0-43bc-ac78-18af0764a492",
+            "name": "Cria o repositório remoto no GitHub",
+            "status": "⏰ Aguardando",
+            "sequence": 2
+        },
+        {
+            "idmilestone": "8f8f557d-f82d-407d-a703-0388d6efef09",
+            "idaction": "719ee889-d314-4aa2-9d08-c6ad70dce311",
+            "name": "Configura o ambiente virtual Python",
+            "status": "⏰ Aguardando",
+            "sequence": 3
+        },
+        {
+            "idmilestone": "8f8f557d-f82d-407d-a703-0388d6efef09",
+            "idaction": "5a082284-5c00-4ec1-a283-14b5d0567cf2",
+            "name": "Cria a estrutura de pastas e arquivos",
+            "status": "⏰ Aguardando",
+            "sequence": 4
+        },
+        {
+            "idmilestone": "8f8f557d-f82d-407d-a703-0388d6efef09",
+            "idaction": "699df701-8eb1-48af-9f58-305c456da34e",
+            "name": "Instala dependências iniciais",
+            "status": "⏰ Aguardando",
+            "sequence": 5
+        },
+        {
+            "idmilestone": "24f0e8ba-d469-4926-b1d5-d647daa4bf41",
+            "idaction": "001bcb5a-6d6b-455d-ac79-70d6bfd6f3b5",
+            "name": "Cria o modelo para Project",
+            "status": "⏰ Aguardando",
+            "sequence": 6
+        },
+        {
+            "idmilestone": "24f0e8ba-d469-4926-b1d5-d647daa4bf41",
+            "idaction": "f5ede85b-957d-4776-a06e-3d37c317d817",
+            "name": "Cria o modelo para Milestones",
+            "status": "⏰ Aguardando",
+            "sequence": 7
+        },
+        {
+            "idmilestone": "24f0e8ba-d469-4926-b1d5-d647daa4bf41",
+            "idaction": "10fded08-5628-4e60-841f-a97e2702b077",
+            "name": "Cria o modelo para Actions",
+            "status": "⏰ Aguardando",
+            "sequence": 8
+        },
+        {
+            "idmilestone": "24f0e8ba-d469-4926-b1d5-d647daa4bf41",
+            "idaction": "6ba33256-a70c-42a6-975f-f47fac02d4bb",
+            "name": "Cria o modelo para Issues",
+            "status": "⏰ Aguardando",
+            "sequence": 9
+        },
+        {
+            "idmilestone": "24f0e8ba-d469-4926-b1d5-d647daa4bf41",
+            "idaction": "fee6ad7b-7b57-4fa0-95dc-c75a7fd03c13",
+            "name": "Cria o modelo para WorkLog",
+            "status": "⏰ Aguardando",
+            "sequence": 10
+        },
+        {
+            "idmilestone": "24f0e8ba-d469-4926-b1d5-d647daa4bf41",
+            "idaction": "c4c98fd8-0428-47ed-977b-30f6f892a347",
+            "name": "Desenvolve o módulo para salvar e carregar dados",
+            "status": "⏰ Aguardando",
+            "sequence": 11
+        },
+        {
+            "idmilestone": "709e53b5-42c6-403c-8381-6dc5093ff534",
+            "idaction": "595d3173-fb58-48e8-9de0-8a14b72b1d38",
+            "name": "Criar a interface de linha de comando (CLI)",
+            "status": "⏰ Aguardando",
+            "sequence": 12
+        },
+        {
+            "idmilestone": "709e53b5-42c6-403c-8381-6dc5093ff534",
+            "idaction": "1d40e857-fd29-45c1-8320-bfb7405c6ebb",
+            "name": "Gerenciar Project (add, list, show, set, update)",
+            "status": "⏰ Aguardando",
+            "sequence": 13
+        },
+        {
+            "idmilestone": "709e53b5-42c6-403c-8381-6dc5093ff534",
+            "idaction": "3e5aa39b-37de-4e73-940b-c30ad0fcea4d",
+            "name": "Gerenciar Milestones (add, list)",
+            "status": "⏰ Aguardando",
+            "sequence": 14
+        },
+        {
+            "idmilestone": "709e53b5-42c6-403c-8381-6dc5093ff534",
+            "idaction": "305f4a54-3e3e-4c84-8dfd-9780061377cd",
+            "name": "Gerenciar Actions (add, list, modify)",
+            "status": "⏰ Aguardando",
+            "sequence": 15
+        },
+        {
+            "idmilestone": "709e53b5-42c6-403c-8381-6dc5093ff534",
+            "idaction": "3adbb745-51d4-416d-b28d-6487a1ddad2a",
+            "name": "Gerenciar Issues (add, list, modify)",
+            "status": "⏰ Aguardando",
+            "sequence": 16
+        },
+        {
+            "idmilestone": "709e53b5-42c6-403c-8381-6dc5093ff534",
+            "idaction": "0fd977a8-5924-40bc-834e-1f9993d8034b",
+            "name": "Gerenciar Worklog (add, list, modify, report)",
+            "status": "⏰ Aguardando",
+            "sequence": 17
+        },
+        {
+            "idmilestone": "81a1a809-b0cb-49c0-af9e-40312ec207c6",
+            "idaction": "d99e1aa0-11e4-41af-af49-0c59ebf9dd56",
+            "name": "Configura o ambiente de testes",
+            "status": "⏰ Aguardando",
+            "sequence": 18
+        },
+        {
+            "idmilestone": "81a1a809-b0cb-49c0-af9e-40312ec207c6",
+            "idaction": "917fd167-bad3-4dcd-bf5d-c7aaf987647c",
+            "name": "Cria testes unitários para os modelos e a lógica principal",
+            "status": "⏰ Aguardando",
+            "sequence": 19
+        },
+        {
+            "idmilestone": "81a1a809-b0cb-49c0-af9e-40312ec207c6",
+            "idaction": "dac273e8-c80b-45ff-b43e-5418d58e7b68",
+            "name": "Cria testes de integração para os comandos da CLI",
+            "status": "⏰ Aguardando",
+            "sequence": 20
+        },
+        {
+            "idmilestone": "81a1a809-b0cb-49c0-af9e-40312ec207c6",
+            "idaction": "d3e2f2c0-33ea-4a40-8094-24ade38e924f",
+            "name": "Mede a cobertura de testes do código",
+            "status": "⏰ Aguardando",
+            "sequence": 21
+        },
+        {
+            "idmilestone": "81a1a809-b0cb-49c0-af9e-40312ec207c6",
+            "idaction": "c43ae038-3e6f-4bc8-9eec-a0fdd7a2919c",
+            "name": "Configura uma ferramenta de documentação",
+            "status": "⏰ Aguardando",
+            "sequence": 22
+        },
+        {
+            "idmilestone": "81a1a809-b0cb-49c0-af9e-40312ec207c6",
+            "idaction": "a77718c3-95a7-4441-a91d-1db8464019c8",
+            "name": "Escreve o guia de uso na documentação",
+            "status": "⏰ Aguardando",
+            "sequence": 23
+        },
+        {
+            "idmilestone": "81a1a809-b0cb-49c0-af9e-40312ec207c6",
+            "idaction": "140c6afd-2daf-4323-836c-498f8365bfcb",
+            "name": "Cria um README.md completo com instalação e uso rápido",
+            "status": "⏰ Aguardando",
+            "sequence": 24
+        },
+        {
+            "idmilestone": "4366c90c-c108-4045-9d73-343318289889",
+            "idaction": "879ec30b-a4bd-4397-803f-56bc66b5f833",
+            "name": "Configura o arquivo pyproject.toml para empacotamento",
+            "status": "⏰ Aguardando",
+            "sequence": 25
+        },
+        {
+            "idmilestone": "4366c90c-c108-4045-9d73-343318289889",
+            "idaction": "69e6c5b7-a43f-4dec-a1d0-4f9d0816f13c",
+            "name": "Gera o pacote distribuível",
+            "status": "⏰ Aguardando",
+            "sequence": 26
+        },
+        {
+            "idmilestone": "4366c90c-c108-4045-9d73-343318289889",
+            "idaction": "fc463a1b-8395-4b75-aa32-8b9a36ddd48e",
+            "name": "Cria o executável standalone",
+            "status": "⏰ Aguardando",
+            "sequence": 27
+        },
+        {
+            "idmilestone": "4366c90c-c108-4045-9d73-343318289889",
+            "idaction": "1f693d3c-fed7-4e71-8c00-b1a3b46ba511",
+            "name": "Cria a tag da versão",
+            "status": "⏰ Aguardando",
+            "sequence": 28
+        },
+        {
+            "idmilestone": "4366c90c-c108-4045-9d73-343318289889",
+            "idaction": "39af31c5-4bf9-4ea9-b425-84e469fa71f8",
+            "name": "Publica a \"Release\" no GitHub com os executáveis anexados",
+            "status": "⏰ Aguardando",
+            "sequence": 29
+        }
+    ],
+    "issues": [],
+    "works": []
+}

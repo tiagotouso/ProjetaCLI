@@ -40,4 +40,3 @@ Gera o pacote distribuível
 Cria o executável standalone
 Cria a tag da versão
 Publica a "Release" no GitHub com os executáveis anexados
-
